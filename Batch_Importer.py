@@ -1,32 +1,14 @@
+# -*- coding:utf-8 -*-
+# Author: 张来吃
+# Version: 1.0.0
+# Contact: laciechang@163.com
+
+# -----------------------------------------------------
+# 本工具仅支持在达芬奇内运行
+# -----------------------------------------------------
+
 import glob
 import time
-
-try:
-    import importlib.util
-    
-    def load_dynamics(module, path):
-        spec = importlib.util.spec_from_file_location(module, path)
-        mod = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(mod)
-        return mod
-    def load_dynamic(module, path):
-        loader = importlib.machinery.ExtensionFileLoader(module, path)
-        module = loader.load_module()
-        return module
-    
-except ImportError:
-    import imp
-    # py2
-    def load_dynamic(module, path):
-        spec = imp.load_dynamic(module, path)
-        return spec
-
-def getresolve(app='Resolve'):
-    pylib = "/Applications/DaVinci Resolve/DaVinci Resolve.app/Contents/Libraries/Fusion/fusionscript.so"
-    dvr_script = load_dynamic('fusionscript', pylib)
-    return dvr_script
-
-bmd = getresolve()
 
 fu = bmd.scriptapp('Fusion')
 resolve = bmd.scriptapp('Resolve')

@@ -1,6 +1,6 @@
 [中文](README.md) | English
 
-# Intro
+# 📖 Intro
 Import media to DaVinci Resolve media pool from multiple location at one time.
 
 # 🔧 Installation
@@ -49,4 +49,5 @@ Although it may take a little longer (determined by the principle of the file sy
 # Support our projects:
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/zhanglaichi)
+
 [!["小黄灯杂货铺"](https://github.com/laciechang/img/blob/master/spotlight_img/mianbaoduo_button.png)](https://mbd.pub/o/works/240920)

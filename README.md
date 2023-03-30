@@ -1,6 +1,6 @@
 中文 | [English](README_EN.md)
 
-# 简介
+# 📖 简介
 同时从多个位置中导入媒体至 DaVinci Resolve 媒体池
 
 # 🔧 安装
@@ -51,4 +51,5 @@
 # Support our projects:
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/zhanglaichi)
+
 [!["小黄灯杂货铺"](https://github.com/laciechang/img/blob/master/spotlight_img/mianbaoduo_button.png)](https://mbd.pub/o/works/240920)

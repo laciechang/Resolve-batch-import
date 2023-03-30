@@ -4,7 +4,9 @@
 # Contact: laciechang@163.com
 
 # -----------------------------------------------------
-# 本工具仅支持在达芬奇内运行
+# This script runs inside Resolve only, move me to:
+# macOS: /Users/{USER}/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Edit
+# Windows: C:\Users\{USER}\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Scripts\Edit
 # -----------------------------------------------------
 
 import glob
@@ -32,14 +34,14 @@ window_01 = [
             ui.HGroup({"Spacing": 5, "Weight": 0},
             [
                 ui.LineEdit({"ID": input_pattern, "PlaceholderText": "e.g. /Volumes/*/Source"}),
-                ui.Button({"ID": add_path, "Text": "添加路径", "Weight": 0}),
+                ui.Button({"ID": add_path, "Text": "Append Path", "Weight": 0}),
             ]),
-            ui.Tree({"ID": path_tree, "AlternatingRowColors": True, "HeaderHidden": True, "SelectionMode": "ExtendedSelection", "Weight": 2}),
+            ui.Tree({"ID": path_tree, "DragEnabled": True, "DragDropMode": "DragDrop","AlternatingRowColors": True, "HeaderHidden": True, "SelectionMode": "ExtendedSelection", "Weight": 2}),
             ui.HGroup({"Spacing": 5, "Weight": 0},
             [
-                ui.Button({"ID": clean_path, "Text": "清除所有", "Weight": 0}),
+                ui.Button({"ID": clean_path, "Text": "Clean all", "Weight": 0}),
                 ui.Label({"ID": infomation, "Text": "" , "Weight": 1}),
-                ui.Button({"ID": start_import, "Text": "导入选中部分", "Weight": 0}),
+                ui.Button({"ID": start_import, "Text": "Import selected", "Weight": 0}),
             ]),
             ui.Stack({"ID": "pg_set", "Weight": 0},[
                         ui.Label({"ID": ProgressBarBG, "Visible":False, "StyleSheet": "max-height: 3px; background-color: rgb(37,37,37)",}),
@@ -49,7 +51,7 @@ window_01 = [
 ]
 
 dlg = disp.AddWindow({ 
-                        "WindowTitle": "批量导入媒体池", 
+                        "WindowTitle": "Batch Importer", 
                         "ID": "MyWin", 
                         "Geometry": [ 
                                     600, 300, # position when starting

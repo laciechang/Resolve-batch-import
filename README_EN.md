@@ -1,7 +1,7 @@
 [中文](README.md) | English
 
 # 📖 Intro
-Import media to DaVinci Resolve media pool from multiple location at one time.
+Import media into current bin of DaVinci Resolve media pool from multiple location at once.
 
 # 🔧 Installation
 

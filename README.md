@@ -19,7 +19,7 @@
 
 # 🎛 用法
 
-1. 在地址栏中输入或粘贴路径，使用通配符来进行模糊匹配。完整的匹配规则请参见[glob(programming) - Wikipedia](https://en.wikipedia.org/wiki/Glob_(programming)) 或 [Python 官网](https://docs.python.org/3/library/glob.html)。
+1. 在地址栏中输入或粘贴路径，使用通配符(*?[])来进行模糊匹配。完整的匹配规则请参见[glob(programming) - Wikipedia](https://en.wikipedia.org/wiki/Glob_(programming)) 或 [Python 官网](https://docs.python.org/3/library/glob.html)。
 
 2. 点击 *Append path* 即可获取匹配的结果，并在下方的*待选列表*中展示。
 
@@ -48,7 +48,9 @@
 - 其他版本的 Python 在达芬奇18之前并不支持
 - 无需额外的库
 
-# Support our projects:
+# [🔗 微信公众号原文](https://mp.weixin.qq.com/s/57AonDDnTu9K8Gg7wWPu6A)
+
+# 支持我们:
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/zhanglaichi)
 

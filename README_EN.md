@@ -15,7 +15,7 @@ Import media to DaVinci Resolve media pool from multiple location at one time.
 
 # 🎛 Usage
 
-1. Enter or paste path into *Address Bar*. You can use wildcards for fuzzy matching. For full matching rules, please refer to [glob(programming) - Wikipedia](https://en.wikipedia.org/wiki/Glob_(programming)) or [Python Official Website](https://docs.python.org/3/library/glob.html).
+1. Enter or paste path into *Address Bar*. You can use wildcards(*?[]) for fuzzy matching. For full matching rules, please refer to [glob(programming) - Wikipedia](https://en.wikipedia.org/wiki/Glob_(programming)) or [Python Official Website](https://docs.python.org/3/library/glob.html).
 
 2. Click *Append path* to get all results in the *Pending List* below.
 
@@ -27,7 +27,7 @@ Import media to DaVinci Resolve media pool from multiple location at one time.
 
 # 🧷 E.g. 
 
-|  Entered Path  |  Matched Path  | Unmatched Path |
+|  Example  |  Matches  | Does not match |
 | --- | --- | --- |
 |  /Volumes/A0*  | /Volumes/A01<br>/Volumes/A02<br>/Volumes/A03<br>...  | /Volumes/B01<br>/Volumes/B02<br>/Volumes/A12<br>... |
 |  /Volumes/Project/202303*/ARRIRAW |  /Volumes/Project/20230301/ARRIRAW<br>/Volumes/Project/20230302/ARRIRAW<br>/Volumes/Project/20230303/ARRIRAW<br>/Volumes/Project/20230304/ARRIRAW<br>...  |  /Volumes/Project/20230401/ARRIRAW<br>... |

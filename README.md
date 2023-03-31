@@ -2,6 +2,7 @@
 
 # 📖 简介
 同时从多个位置中导入媒体至 DaVinci Resolve 媒体池
+!["Screenshot"](Batch_Importer_Screenshot.png)
 
 # 🔧 安装
 

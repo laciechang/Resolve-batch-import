@@ -2,6 +2,7 @@
 
 # 📖 Intro
 Import media into current bin of DaVinci Resolve media pool from multiple location at once.
+!["Screenshot"](Batch_Importer_Screenshot.png)
 
 # 🔧 Installation
 
